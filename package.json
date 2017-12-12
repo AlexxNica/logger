@@ -1,8 +1,8 @@
 {
-  "name": "logger",
-  "version": "1.0.0",
+  "name": "@alexxnica/logger",
+  "version": "1.0.3",
   "description": "",
-  "main": "index.js",
+  "main": "./dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,8 +10,10 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@types/node": "^8.0.58",
     "tslib": "^1.8.1",
     "typescript": "^2.7.0-dev.20171209"
+  },
+  "dependencies": {
+    "@types/node": "^8.0.58"
   }
 }
